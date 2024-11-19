@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <script src="./index.js"></script>
+</head>
+<body>
+    <h1>Handleliste</h1>
+    <h2>Produkt</h2>
+    <input onblur="demo()" type="text" id="product" required placeholder="Product">
+    <h2>Antall</h2>
+    <input type="number" id="amount" placeholder="0">
+    <br />
+    <button onclick="handleListe()" type="button">Legg til</button>
+    <button onmouseleave="demo()" type="button">On Hover</button>
+
+    <h2>Produkter</h2>
+    <ul id="list">
+    </ul>
+</body>
+</html>
