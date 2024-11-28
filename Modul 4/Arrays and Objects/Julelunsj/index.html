@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Julelønsj</title>
+</head>
+<body>
+    <h1>Julelønsj</h1>
+    <p>Kommer du på julelønsj på Gokstad Akademiet torsdag 28. november 2024 kl.11:30?</p>
+    <h3>Registrer deg da vel!</h3>
+    <!-- <form id="christmasRegistration" action=""> -->
+        <div>
+            <label for="name">Name:</label>
+            <input type="text" id="navn" name="navn" required>
+        </div>
+        <div>
+            <label for="allergi">Allergi:</label>
+            <input type="text" id="allergi" name="allergi" required>
+        </div>
+
+        <button onclick="registerPerson()">Registrer</button>
+    <!-- </form> -->
+
+    <h1>Påmeldte</h1>
+    <ul id="paameldte"></ul>
+    <script src="./index.js"></script>
+</body>
+</html>
